@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  tableViewController.h
 //  hackday
 //
 //  Created by ShaoLei on 12/6/14.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "question.h"
-@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
-@property (strong, nonatomic) question *curr;
 
+@interface tableViewController : UITableViewController
+@property (strong,nonatomic) NSMutableArray *data;
 
 @end
-

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F04EB621A33BEA600F98B76 /* question.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04EB611A33BEA600F98B76 /* question.m */; };
+		4F04EB681A33E21900F98B76 /* askQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04EB671A33E21900F98B76 /* askQuestion.m */; };
+		4F04EB6B1A33E4EA00F98B76 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04EB6A1A33E4EA00F98B76 /* tableViewController.m */; };
 		4FF086621A33B2BC002A2410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086611A33B2BC002A2410 /* main.m */; };
 		4FF086651A33B2BC002A2410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086641A33B2BC002A2410 /* AppDelegate.m */; };
 		4FF086681A33B2BC002A2410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086671A33B2BC002A2410 /* ViewController.m */; };
@@ -30,6 +32,10 @@
 /* Begin PBXFileReference section */
 		4F04EB601A33BEA600F98B76 /* question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = question.h; sourceTree = "<group>"; };
 		4F04EB611A33BEA600F98B76 /* question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = question.m; sourceTree = "<group>"; };
+		4F04EB661A33E21900F98B76 /* askQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = askQuestion.h; path = ../askQuestion.h; sourceTree = "<group>"; };
+		4F04EB671A33E21900F98B76 /* askQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = askQuestion.m; path = ../askQuestion.m; sourceTree = "<group>"; };
+		4F04EB691A33E4EA00F98B76 /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tableViewController.h; path = ../tableViewController.h; sourceTree = "<group>"; };
+		4F04EB6A1A33E4EA00F98B76 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tableViewController.m; path = ../tableViewController.m; sourceTree = "<group>"; };
 		4FF0865C1A33B2BC002A2410 /* hackday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF086601A33B2BC002A2410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF086611A33B2BC002A2410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +93,10 @@
 				4FF086631A33B2BC002A2410 /* AppDelegate.h */,
 				4FF086641A33B2BC002A2410 /* AppDelegate.m */,
 				4FF086661A33B2BC002A2410 /* ViewController.h */,
+				4F04EB661A33E21900F98B76 /* askQuestion.h */,
+				4F04EB671A33E21900F98B76 /* askQuestion.m */,
+				4F04EB691A33E4EA00F98B76 /* tableViewController.h */,
+				4F04EB6A1A33E4EA00F98B76 /* tableViewController.m */,
 				4FF086671A33B2BC002A2410 /* ViewController.m */,
 				4F04EB601A33BEA600F98B76 /* question.h */,
 				4F04EB611A33BEA600F98B76 /* question.m */,
@@ -226,6 +236,8 @@
 			files = (
 				4FF086681A33B2BC002A2410 /* ViewController.m in Sources */,
 				4F04EB621A33BEA600F98B76 /* question.m in Sources */,
+				4F04EB681A33E21900F98B76 /* askQuestion.m in Sources */,
+				4F04EB6B1A33E4EA00F98B76 /* tableViewController.m in Sources */,
 				4FF086651A33B2BC002A2410 /* AppDelegate.m in Sources */,
 				4FF086621A33B2BC002A2410 /* main.m in Sources */,
 			);
