@@ -7,50 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FF086301A33A805002A2410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0862F1A33A805002A2410 /* main.m */; };
-		4FF086331A33A805002A2410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086321A33A805002A2410 /* AppDelegate.m */; };
-		4FF086361A33A805002A2410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086351A33A805002A2410 /* ViewController.m */; };
-		4FF086391A33A805002A2410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF086371A33A805002A2410 /* Main.storyboard */; };
-		4FF0863B1A33A805002A2410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0863A1A33A805002A2410 /* Images.xcassets */; };
-		4FF0863E1A33A805002A2410 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0863C1A33A805002A2410 /* LaunchScreen.xib */; };
-		4FF0864A1A33A805002A2410 /* hackdayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086491A33A805002A2410 /* hackdayTests.m */; };
+		4F04EB621A33BEA600F98B76 /* question.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04EB611A33BEA600F98B76 /* question.m */; };
+		4FF086621A33B2BC002A2410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086611A33B2BC002A2410 /* main.m */; };
+		4FF086651A33B2BC002A2410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086641A33B2BC002A2410 /* AppDelegate.m */; };
+		4FF086681A33B2BC002A2410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF086671A33B2BC002A2410 /* ViewController.m */; };
+		4FF0866B1A33B2BC002A2410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF086691A33B2BC002A2410 /* Main.storyboard */; };
+		4FF0866D1A33B2BC002A2410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0866C1A33B2BC002A2410 /* Images.xcassets */; };
+		4FF086701A33B2BC002A2410 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0866E1A33B2BC002A2410 /* LaunchScreen.xib */; };
+		4FF0867C1A33B2BC002A2410 /* hackdayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF0867B1A33B2BC002A2410 /* hackdayTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FF086441A33A805002A2410 /* PBXContainerItemProxy */ = {
+		4FF086761A33B2BC002A2410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4FF086221A33A804002A2410 /* Project object */;
+			containerPortal = 4FF086541A33B2BC002A2410 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FF086291A33A805002A2410;
+			remoteGlobalIDString = 4FF0865B1A33B2BC002A2410;
 			remoteInfo = hackday;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FF0862A1A33A805002A2410 /* hackday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackday.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FF0862E1A33A805002A2410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FF0862F1A33A805002A2410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FF086311A33A805002A2410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4FF086321A33A805002A2410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FF086341A33A805002A2410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FF086351A33A805002A2410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4FF086381A33A805002A2410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FF0863A1A33A805002A2410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4FF0863D1A33A805002A2410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4FF086431A33A805002A2410 /* hackdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FF086481A33A805002A2410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FF086491A33A805002A2410 /* hackdayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackdayTests.m; sourceTree = "<group>"; };
+		4F04EB601A33BEA600F98B76 /* question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = question.h; sourceTree = "<group>"; };
+		4F04EB611A33BEA600F98B76 /* question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = question.m; sourceTree = "<group>"; };
+		4FF0865C1A33B2BC002A2410 /* hackday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF086601A33B2BC002A2410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF086611A33B2BC002A2410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FF086631A33B2BC002A2410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FF086641A33B2BC002A2410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FF086661A33B2BC002A2410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FF086671A33B2BC002A2410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FF0866A1A33B2BC002A2410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF0866C1A33B2BC002A2410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FF0866F1A33B2BC002A2410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FF086751A33B2BC002A2410 /* hackdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF0867A1A33B2BC002A2410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF0867B1A33B2BC002A2410 /* hackdayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackdayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FF086271A33A805002A2410 /* Frameworks */ = {
+		4FF086591A33B2BC002A2410 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FF086401A33A805002A2410 /* Frameworks */ = {
+		4FF086721A33B2BC002A2410 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +63,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FF086211A33A804002A2410 = {
+		4FF086531A33B2BC002A2410 = {
 			isa = PBXGroup;
 			children = (
-				4FF0862C1A33A805002A2410 /* hackday */,
-				4FF086461A33A805002A2410 /* hackdayTests */,
-				4FF0862B1A33A805002A2410 /* Products */,
+				4FF0865E1A33B2BC002A2410 /* hackday */,
+				4FF086781A33B2BC002A2410 /* hackdayTests */,
+				4FF0865D1A33B2BC002A2410 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4FF0862B1A33A805002A2410 /* Products */ = {
+		4FF0865D1A33B2BC002A2410 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FF0862A1A33A805002A2410 /* hackday.app */,
-				4FF086431A33A805002A2410 /* hackdayTests.xctest */,
+				4FF0865C1A33B2BC002A2410 /* hackday.app */,
+				4FF086751A33B2BC002A2410 /* hackdayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FF0862C1A33A805002A2410 /* hackday */ = {
+		4FF0865E1A33B2BC002A2410 /* hackday */ = {
 			isa = PBXGroup;
 			children = (
-				4FF086311A33A805002A2410 /* AppDelegate.h */,
-				4FF086321A33A805002A2410 /* AppDelegate.m */,
-				4FF086341A33A805002A2410 /* ViewController.h */,
-				4FF086351A33A805002A2410 /* ViewController.m */,
-				4FF086371A33A805002A2410 /* Main.storyboard */,
-				4FF0863A1A33A805002A2410 /* Images.xcassets */,
-				4FF0863C1A33A805002A2410 /* LaunchScreen.xib */,
-				4FF0862D1A33A805002A2410 /* Supporting Files */,
+				4FF086631A33B2BC002A2410 /* AppDelegate.h */,
+				4FF086641A33B2BC002A2410 /* AppDelegate.m */,
+				4FF086661A33B2BC002A2410 /* ViewController.h */,
+				4FF086671A33B2BC002A2410 /* ViewController.m */,
+				4F04EB601A33BEA600F98B76 /* question.h */,
+				4F04EB611A33BEA600F98B76 /* question.m */,
+				4FF086691A33B2BC002A2410 /* Main.storyboard */,
+				4FF0866C1A33B2BC002A2410 /* Images.xcassets */,
+				4FF0866E1A33B2BC002A2410 /* LaunchScreen.xib */,
+				4FF0865F1A33B2BC002A2410 /* Supporting Files */,
 			);
 			path = hackday;
 			sourceTree = "<group>";
 		};
-		4FF0862D1A33A805002A2410 /* Supporting Files */ = {
+		4FF0865F1A33B2BC002A2410 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FF0862E1A33A805002A2410 /* Info.plist */,
-				4FF0862F1A33A805002A2410 /* main.m */,
+				4FF086601A33B2BC002A2410 /* Info.plist */,
+				4FF086611A33B2BC002A2410 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4FF086461A33A805002A2410 /* hackdayTests */ = {
+		4FF086781A33B2BC002A2410 /* hackdayTests */ = {
 			isa = PBXGroup;
 			children = (
-				4FF086491A33A805002A2410 /* hackdayTests.m */,
-				4FF086471A33A805002A2410 /* Supporting Files */,
+				4FF0867B1A33B2BC002A2410 /* hackdayTests.m */,
+				4FF086791A33B2BC002A2410 /* Supporting Files */,
 			);
 			path = hackdayTests;
 			sourceTree = "<group>";
 		};
-		4FF086471A33A805002A2410 /* Supporting Files */ = {
+		4FF086791A33B2BC002A2410 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FF086481A33A805002A2410 /* Info.plist */,
+				4FF0867A1A33B2BC002A2410 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +127,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FF086291A33A805002A2410 /* hackday */ = {
+		4FF0865B1A33B2BC002A2410 /* hackday */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FF0864D1A33A806002A2410 /* Build configuration list for PBXNativeTarget "hackday" */;
+			buildConfigurationList = 4FF0867F1A33B2BC002A2410 /* Build configuration list for PBXNativeTarget "hackday" */;
 			buildPhases = (
-				4FF086261A33A805002A2410 /* Sources */,
-				4FF086271A33A805002A2410 /* Frameworks */,
-				4FF086281A33A805002A2410 /* Resources */,
+				4FF086581A33B2BC002A2410 /* Sources */,
+				4FF086591A33B2BC002A2410 /* Frameworks */,
+				4FF0865A1A33B2BC002A2410 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +141,46 @@
 			);
 			name = hackday;
 			productName = hackday;
-			productReference = 4FF0862A1A33A805002A2410 /* hackday.app */;
+			productReference = 4FF0865C1A33B2BC002A2410 /* hackday.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4FF086421A33A805002A2410 /* hackdayTests */ = {
+		4FF086741A33B2BC002A2410 /* hackdayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FF086501A33A806002A2410 /* Build configuration list for PBXNativeTarget "hackdayTests" */;
+			buildConfigurationList = 4FF086821A33B2BC002A2410 /* Build configuration list for PBXNativeTarget "hackdayTests" */;
 			buildPhases = (
-				4FF0863F1A33A805002A2410 /* Sources */,
-				4FF086401A33A805002A2410 /* Frameworks */,
-				4FF086411A33A805002A2410 /* Resources */,
+				4FF086711A33B2BC002A2410 /* Sources */,
+				4FF086721A33B2BC002A2410 /* Frameworks */,
+				4FF086731A33B2BC002A2410 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FF086451A33A805002A2410 /* PBXTargetDependency */,
+				4FF086771A33B2BC002A2410 /* PBXTargetDependency */,
 			);
 			name = hackdayTests;
 			productName = hackdayTests;
-			productReference = 4FF086431A33A805002A2410 /* hackdayTests.xctest */;
+			productReference = 4FF086751A33B2BC002A2410 /* hackdayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4FF086221A33A804002A2410 /* Project object */ = {
+		4FF086541A33B2BC002A2410 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = ShaoLei;
 				TargetAttributes = {
-					4FF086291A33A805002A2410 = {
+					4FF0865B1A33B2BC002A2410 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					4FF086421A33A805002A2410 = {
+					4FF086741A33B2BC002A2410 = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 4FF086291A33A805002A2410;
+						TestTargetID = 4FF0865B1A33B2BC002A2410;
 					};
 				};
 			};
-			buildConfigurationList = 4FF086251A33A804002A2410 /* Build configuration list for PBXProject "hackday" */;
+			buildConfigurationList = 4FF086571A33B2BC002A2410 /* Build configuration list for PBXProject "hackday" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +188,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4FF086211A33A804002A2410;
-			productRefGroup = 4FF0862B1A33A805002A2410 /* Products */;
+			mainGroup = 4FF086531A33B2BC002A2410;
+			productRefGroup = 4FF0865D1A33B2BC002A2410 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FF086291A33A805002A2410 /* hackday */,
-				4FF086421A33A805002A2410 /* hackdayTests */,
+				4FF0865B1A33B2BC002A2410 /* hackday */,
+				4FF086741A33B2BC002A2410 /* hackdayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FF086281A33A805002A2410 /* Resources */ = {
+		4FF0865A1A33B2BC002A2410 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF086391A33A805002A2410 /* Main.storyboard in Resources */,
-				4FF0863E1A33A805002A2410 /* LaunchScreen.xib in Resources */,
-				4FF0863B1A33A805002A2410 /* Images.xcassets in Resources */,
+				4FF0866B1A33B2BC002A2410 /* Main.storyboard in Resources */,
+				4FF086701A33B2BC002A2410 /* LaunchScreen.xib in Resources */,
+				4FF0866D1A33B2BC002A2410 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FF086411A33A805002A2410 /* Resources */ = {
+		4FF086731A33B2BC002A2410 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +220,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FF086261A33A805002A2410 /* Sources */ = {
+		4FF086581A33B2BC002A2410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF086361A33A805002A2410 /* ViewController.m in Sources */,
-				4FF086331A33A805002A2410 /* AppDelegate.m in Sources */,
-				4FF086301A33A805002A2410 /* main.m in Sources */,
+				4FF086681A33B2BC002A2410 /* ViewController.m in Sources */,
+				4F04EB621A33BEA600F98B76 /* question.m in Sources */,
+				4FF086651A33B2BC002A2410 /* AppDelegate.m in Sources */,
+				4FF086621A33B2BC002A2410 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FF0863F1A33A805002A2410 /* Sources */ = {
+		4FF086711A33B2BC002A2410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF0864A1A33A805002A2410 /* hackdayTests.m in Sources */,
+				4FF0867C1A33B2BC002A2410 /* hackdayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FF086451A33A805002A2410 /* PBXTargetDependency */ = {
+		4FF086771A33B2BC002A2410 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FF086291A33A805002A2410 /* hackday */;
-			targetProxy = 4FF086441A33A805002A2410 /* PBXContainerItemProxy */;
+			target = 4FF0865B1A33B2BC002A2410 /* hackday */;
+			targetProxy = 4FF086761A33B2BC002A2410 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FF086371A33A805002A2410 /* Main.storyboard */ = {
+		4FF086691A33B2BC002A2410 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FF086381A33A805002A2410 /* Base */,
+				4FF0866A1A33B2BC002A2410 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4FF0863C1A33A805002A2410 /* LaunchScreen.xib */ = {
+		4FF0866E1A33B2BC002A2410 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FF0863D1A33A805002A2410 /* Base */,
+				4FF0866F1A33B2BC002A2410 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +269,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4FF0864B1A33A805002A2410 /* Debug */ = {
+		4FF0867D1A33B2BC002A2410 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		4FF0864C1A33A805002A2410 /* Release */ = {
+		4FF0867E1A33B2BC002A2410 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,27 +345,29 @@
 			};
 			name = Release;
 		};
-		4FF0864E1A33A806002A2410 /* Debug */ = {
+		4FF086801A33B2BC002A2410 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hackday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4FF0864F1A33A806002A2410 /* Release */ = {
+		4FF086811A33B2BC002A2410 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hackday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		4FF086511A33A806002A2410 /* Debug */ = {
+		4FF086831A33B2BC002A2410 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		4FF086521A33A806002A2410 /* Release */ = {
+		4FF086841A33B2BC002A2410 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,32 +404,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FF086251A33A804002A2410 /* Build configuration list for PBXProject "hackday" */ = {
+		4FF086571A33B2BC002A2410 /* Build configuration list for PBXProject "hackday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FF0864B1A33A805002A2410 /* Debug */,
-				4FF0864C1A33A805002A2410 /* Release */,
+				4FF0867D1A33B2BC002A2410 /* Debug */,
+				4FF0867E1A33B2BC002A2410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FF0864D1A33A806002A2410 /* Build configuration list for PBXNativeTarget "hackday" */ = {
+		4FF0867F1A33B2BC002A2410 /* Build configuration list for PBXNativeTarget "hackday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FF0864E1A33A806002A2410 /* Debug */,
-				4FF0864F1A33A806002A2410 /* Release */,
+				4FF086801A33B2BC002A2410 /* Debug */,
+				4FF086811A33B2BC002A2410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4FF086501A33A806002A2410 /* Build configuration list for PBXNativeTarget "hackdayTests" */ = {
+		4FF086821A33B2BC002A2410 /* Build configuration list for PBXNativeTarget "hackdayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FF086511A33A806002A2410 /* Debug */,
-				4FF086521A33A806002A2410 /* Release */,
+				4FF086831A33B2BC002A2410 /* Debug */,
+				4FF086841A33B2BC002A2410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4FF086221A33A804002A2410 /* Project object */;
+	rootObject = 4FF086541A33B2BC002A2410 /* Project object */;
 }

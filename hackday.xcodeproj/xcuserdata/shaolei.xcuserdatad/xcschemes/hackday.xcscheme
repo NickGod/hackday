@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FF086291A33A805002A2410"
+               BlueprintIdentifier = "4FF0865B1A33B2BC002A2410"
                BuildableName = "hackday.app"
                BlueprintName = "hackday"
                ReferencedContainer = "container:hackday.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FF086421A33A805002A2410"
+               BlueprintIdentifier = "4FF086741A33B2BC002A2410"
                BuildableName = "hackdayTests.xctest"
                BlueprintName = "hackdayTests"
                ReferencedContainer = "container:hackday.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FF086421A33A805002A2410"
+               BlueprintIdentifier = "4FF086741A33B2BC002A2410"
                BuildableName = "hackdayTests.xctest"
                BlueprintName = "hackdayTests"
                ReferencedContainer = "container:hackday.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FF086291A33A805002A2410"
+            BlueprintIdentifier = "4FF0865B1A33B2BC002A2410"
             BuildableName = "hackday.app"
             BlueprintName = "hackday"
             ReferencedContainer = "container:hackday.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FF086291A33A805002A2410"
+            BlueprintIdentifier = "4FF0865B1A33B2BC002A2410"
             BuildableName = "hackday.app"
             BlueprintName = "hackday"
             ReferencedContainer = "container:hackday.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FF086291A33A805002A2410"
+            BlueprintIdentifier = "4FF0865B1A33B2BC002A2410"
             BuildableName = "hackday.app"
             BlueprintName = "hackday"
             ReferencedContainer = "container:hackday.xcodeproj">
